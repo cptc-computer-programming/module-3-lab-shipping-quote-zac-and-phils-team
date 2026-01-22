@@ -4,17 +4,23 @@ I am making a change to the design.
 
 ## Cost Formula
 
+
+
 Write your cost formula (math or pseudocode). It must include:
 - at least one weight-based factor
 - at least one size-based factor
 
 ```java 
 // formula could go here
+totalCost = baseCost + (weight *weightRate) + (sizeFactor* sizeRate)
+
 ```
 Size factor selected (choose at least one):
 - sqrt(volume)
 - surface area: 2(lw + lh + wh)
-- longest side: max(length, width, height)
+
+<!-- - longest side: max(length, width, height)   // selected for size factor --> 
+
 - density: weight / volume
 - cube root: volume^(1/3)
 - perimeter of footprint: 2(length + width)
