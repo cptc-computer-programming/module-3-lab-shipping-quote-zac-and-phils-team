@@ -33,16 +33,21 @@ Brief justification (2–4 sentences):
 ## Method List (at least 5)
 
 For each method, keep it short. Include only:
-- description (1 sentence)
-- inputs (short list)
+
+ description (1 sentence)
+
+ inputs (short list)
+
 - output (what it returns)
+
 - return type
 
 Method 1:
-- description:
-- inputs:
-- output:
-- return type:
+<!-- CalculateVolume-->
+- description: <!-- Calculates the total cubic inches of a package -->
+- inputs: <!-- int length, int width, int height -->
+- output: <!-- int (volume)-->
+- return type: <!-- int -->
 
 Method 2:
 - description:
