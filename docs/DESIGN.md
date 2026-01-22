@@ -42,33 +42,37 @@ For each method, keep it short. Include only:
 
 - return type
 
-Method 1:
-<!-- CalculateVolume-->
+Method 1:<!-- CalculateVolume-->
+
 - description: <!-- Calculates the total cubic inches of a package -->
 - inputs: <!-- int length, int width, int height -->
 - output: <!-- int (volume)-->
 - return type: <!-- int -->
 
-Method 2:
-- description:
-- inputs:
-- output:
-- return type:
+Method 2: <!-- DetermineSizeFactor-->
 
-Method 3:
-- description:
-- inputs:
-- output:
-- return type:
+- description:<!-- identify the longest side of the package -->
+- inputs:<!-- int length, int width, int height -->
+- output:<!-- math.max()  -->
+- return type:<!-- double -->
 
-Method 4:
-- description:
-- inputs:
-- output:
-- return type:
+Method 3: <!-- isOverweight-->
 
-Method 5:
-- description:
+- description: <!-- Checks if the package exceeds the max weight -->
+- inputs:<!-- double weight -->
+- output:<!-- boolean -->
+- return type:<!-- boolean -->
+
+Method 4:<!-- calculateBaseCost-->
+
+- description:<!-- returns the base cost of the package-->
 - inputs:
 - output:
-- return type:
+- return type:<!-- double -->
+
+Method 5:<!-- CalculateTotalCost-->
+
+- description:<!-- Combines all factors to get finalPrice -->
+- inputs:<!-- double baseCost, double weight, double sizeFactor-->
+- output:
+- return type:<!-- double (dollar amount) -->
