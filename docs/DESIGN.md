@@ -1,6 +1,6 @@
 # Shipping Quote Calculator
 
-I am making a change to the design.
+## I am making a change to the design.
 
 ## Cost Formula
 
