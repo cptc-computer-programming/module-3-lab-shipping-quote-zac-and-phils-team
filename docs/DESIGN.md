@@ -1,5 +1,7 @@
 # Shipping Quote Calculator
 
+I am making a change to the design.
+
 ## Cost Formula
 
 Write your cost formula (math or pseudocode). It must include:
