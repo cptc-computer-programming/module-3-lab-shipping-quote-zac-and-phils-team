@@ -9,10 +9,10 @@ public class ShippingQuote {
 //    sizeFactor = int max(length, width, height);
 //     return length + width + height;
 
-    final double WEIGHT = 25.5;
-    final int HEIGHT = 14; 
-    final int WIDTH = 12;
-    final int LENGTH = 20;
+    final double WEIGHT = 5.0;
+    final int HEIGHT = 50; 
+    final int WIDTH = 4;
+    final int LENGTH = 4;
 
     int volume = calculateVolume(LENGTH, WIDTH, HEIGHT);
     double sizeFactor = determineSizeFactor(LENGTH, WIDTH, HEIGHT);
@@ -47,7 +47,7 @@ public class ShippingQuote {
     }
 
     public static double calculateBaseCost() {
-        return 10.0;
+        return 5.0;
     }
 
     public static double calculateTotalCost(double baseCost, double weight, double sizeFactor) {
